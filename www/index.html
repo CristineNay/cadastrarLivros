@@ -1,0 +1,132 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta http-equiv="Content-Security-Policy" content="default-src * data: gap: content: https://ssl.gstatic.com; style-src * 'unsafe-inline'; script-src * 'unsafe-inline' 'unsafe-eval'">
+    <script src="components/loader.js"></script>
+    <link rel="stylesheet" href="components/loader.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Mali&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/d4415acbde.js"></script>
+
+    <script>
+    </script>
+</head>
+<body>
+	 <div class="container">
+      <img src="img/bookinside.jpg" id="img">
+    <br><br><br><br><br>
+    <div class="row">
+      <div class="col-md-12" id="title">
+        <span><center><b> Listar Livros </b></span>
+      </div>
+    </div><!--row-->
+    <center>
+    <div class="row">
+      <div class="col-md-12">
+        <div class="form-group">
+          <label for=""></label>
+          <select class="form-control" id="titulo">
+            <option>
+          </select>
+        </div>
+      </div>
+    </div><!--row-->
+
+    <div class="row">
+      <div class="col-md-12">
+        <div class="form-group">
+          <label for=""></label>
+          <input type="text" class="form-control" id="titulo" placeholder="Título do Livro">
+        </div>
+      </div>
+    </div><!--row-->
+
+    <div class="row">
+      <div class="col-md-12">
+        <div class="form-group">
+          <label for=""></label>
+          <input type="text" class="form-control" id="autor" placeholder="Autor">
+        </div>
+      </div>
+    </div><!--row-->
+
+    <div class="row">
+      <div class="col-md-12">
+        <div class="form-group">
+          <label for=""></label>
+          <input type="number" class="form-control" max="2019" id="ano" placeholder="Ano">
+        </div>
+      </div>
+    </div><!--row-->
+
+    <div class="row">
+      <div class="col-md-12">
+        <div class="form-group">
+          <label for=""></label>
+          <input type="number" class="form-control" id="ISBN" placeholder="ISBN">
+        </div>
+      </div>
+    </div><!--row-->
+
+    <!-- <div class="row">
+       <div class="col-xs-3">
+          <button class="btn btn-danger btn-block" id="deletar">Excluir</button>
+        </div> 
+      
+  
+       <div class="col-xs-3">
+          <button class="btn btn-secondary btn-block" id="change">Editar</button>
+        </div> 
+
+      <!-- <div class="col-xs-3">
+          <button class="btn btn-warning btn-block" id="cancelar">Cancelar</button>
+        </div> 
+    
+      <div class="col-xs-3">
+          <button class="btn btn-success btn-block" id="salvar">Cadastrar</button>
+        </div> 
+    </div> -->
+    
+    <button style="color: crimson; background:none; border:none;" class="fas fa-book-open border:none;"id="deletar"><br>Excluir</button>
+    <button style="color: #00BCD4; background:none; border:none;" class="fas fa-book-open"id="change"><br>Editar</button>
+    <button style="color: #607D8B; background:none; border:none;" class="fas fa-book-open"id="cancelar"><br>Cancelar</button>
+    <button style="color: #4CAF50; background:none; border:none;" class="fas fa-book-open"id="salvar"><br>Cadastrar</button>
+    
+  </div><!--container-->
+</body>
+</html>
+<style>
+  #img{
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width:100%;
+    height:100%;
+    z-index: -1;
+  }
+
+  .form-control {
+    box-shadow:;
+    background:;
+    border: 2px solid rgba(255, 255, 255, 0.58);
+    border-radius: 28px;
+    height: 44px;
+    font-size: 15px;
+    font-weight: 400;
+    color:;
+    width:87%;
+    margin-top:-11px;
+  }
+
+  span{
+    font-family: 'Mali', cursive;
+    font-size: 20px;
+  }
+
+  .fas fa-book-open{
+    background:none;
+  }
+</style>
